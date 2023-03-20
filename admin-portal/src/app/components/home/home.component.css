@@ -1,0 +1,18 @@
+.home{
+  text-align: center;
+}
+.home-title{
+  color: purple;
+}
+
+li{
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+  font-size: 25px;
+
+}
+
+li:hover{
+  color: turquoise;
+}

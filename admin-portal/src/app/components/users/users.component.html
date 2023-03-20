@@ -1,0 +1,32 @@
+<div class="users">
+  <h1 class="title">Users</h1>
+
+  <br>
+  <button (click)="openModal()" class="btn-primary">Open Modal</button>
+  <br>
+  <br>
+  <div class="create-user">
+  <div class="modal" *ngIf="show">
+    <button class="btn-primary">Generate id</button>
+    <br>
+    <br>
+    <form (formGroup)="profileForm">
+
+      <label for="name"> Name: </label>
+      <input id="name" type="text" formControlName="id">
+
+      <label for="email">Email: </label>
+      <input id="email" type="text" formControlName="email">
+
+    </form>
+
+    <select name="roles" id="roles">
+      <option value="">--Please choose an option--</option>
+  </select>
+  <select name="organisations" id="roles">
+    <option value="">--Please choose an option--</option>
+</select>
+
+  </div>
+</div>
+</div>
